@@ -7,6 +7,7 @@
 //
 
 #import "DataViewController.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface DataViewController ()
 
@@ -34,6 +35,23 @@
 
 -(IBAction)handleTap:(UITapGestureRecognizer *)recognizer{
     NSLog(@"We have a tap");
+    NSError *error;
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"bear_growl_y" ofType:@"wav"];
+    
+    if (![[NSFileManager defaultManager] fileExistsAtPath:path]){
+        NSLog(@"Filepath ukjent : %@", path);
+    }else{
+        NSLog(@"Playing %@", path);
+    }
+    
+    AVAudioPlayer *player = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:&error];
+    
+    if (!player)
+	{
+		NSLog(@"AVAudioPlayer could not be established: %@", error.localizedFailureReason);
+	}
+    
+    [player play];
 }
 
 @end
