@@ -32,4 +32,8 @@
     self.dataLabel.text = [self.dataObject description];
 }
 
+-(IBAction)handleTap:(UITapGestureRecognizer *)recognizer{
+    NSLog(@"We have a tap");
+}
+
 @end

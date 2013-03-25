@@ -12,5 +12,6 @@
 
 @property (strong, nonatomic) IBOutlet UILabel *dataLabel;
 @property (strong, nonatomic) id dataObject;
+- (IBAction)handleTap:(UITapGestureRecognizer *)recognizer;
 
 @end
