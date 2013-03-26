@@ -26,9 +26,9 @@
 		0B2599D217003F7000CA0BC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2599A417003F7000CA0BC8 /* Foundation.framework */; };
 		0B2599DA17003F7000CA0BC8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B2599D817003F7000CA0BC8 /* InfoPlist.strings */; };
 		0B2599DD17003F7000CA0BC8 /* PictoramaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2599DC17003F7000CA0BC8 /* PictoramaTests.m */; };
-		0B2599E9170042EE00CA0BC8 /* frogme.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B2599E8170042EE00CA0BC8 /* frogme.jpg */; };
 		0B2599ED1700B88500CA0BC8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2599EC1700B88500CA0BC8 /* AVFoundation.framework */; };
 		0B2599EF1701864F00CA0BC8 /* bear_growl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0B2599EE1701864F00CA0BC8 /* bear_growl.mp3 */; };
+		0B259A411701D6F900CA0BC8 /* black_bear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B259A401701D6F900CA0BC8 /* black_bear.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,9 +69,9 @@
 		0B2599D917003F7000CA0BC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0B2599DB17003F7000CA0BC8 /* PictoramaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictoramaTests.h; sourceTree = "<group>"; };
 		0B2599DC17003F7000CA0BC8 /* PictoramaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictoramaTests.m; sourceTree = "<group>"; };
-		0B2599E8170042EE00CA0BC8 /* frogme.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = frogme.jpg; sourceTree = "<group>"; };
 		0B2599EC1700B88500CA0BC8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		0B2599EE1701864F00CA0BC8 /* bear_growl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bear_growl.mp3; sourceTree = "<group>"; };
+		0B259A401701D6F900CA0BC8 /* black_bear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = black_bear.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,9 +154,9 @@
 				0B2599AA17003F7000CA0BC8 /* Pictorama-Info.plist */,
 				0B2599EE1701864F00CA0BC8 /* bear_growl.mp3 */,
 				0B2599AB17003F7000CA0BC8 /* InfoPlist.strings */,
+				0B259A401701D6F900CA0BC8 /* black_bear.jpg */,
 				0B2599AE17003F7000CA0BC8 /* main.m */,
 				0B2599B017003F7000CA0BC8 /* Pictorama-Prefix.pch */,
-				0B2599E8170042EE00CA0BC8 /* frogme.jpg */,
 				0B2599B417003F7000CA0BC8 /* Default.png */,
 				0B2599B617003F7000CA0BC8 /* Default@2x.png */,
 				0B2599B817003F7000CA0BC8 /* Default-568h@2x.png */,
@@ -260,8 +260,8 @@
 				0B2599B917003F7000CA0BC8 /* Default-568h@2x.png in Resources */,
 				0B2599C517003F7000CA0BC8 /* MainStoryboard_iPhone.storyboard in Resources */,
 				0B2599C817003F7000CA0BC8 /* MainStoryboard_iPad.storyboard in Resources */,
-				0B2599E9170042EE00CA0BC8 /* frogme.jpg in Resources */,
 				0B2599EF1701864F00CA0BC8 /* bear_growl.mp3 in Resources */,
+				0B259A411701D6F900CA0BC8 /* black_bear.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
