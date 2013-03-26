@@ -7,7 +7,6 @@
 //
 
 #import "DataViewController.h"
-#import <AVFoundation/AVFoundation.h>
 
 @interface DataViewController ()
 
@@ -18,7 +17,21 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	NSError *error;
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"bear_growl" ofType:@"mp3"];
+    
+    if (![[NSFileManager defaultManager] fileExistsAtPath:path]){
+        NSLog(@"Filepath ukjent : %@", path);
+    }else{
+        NSLog(@"Playing %@", path);
+    }
+    
+    self.player = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:&error];
+    
+    if (!self.player)
+	{
+		NSLog(@"AVAudioPlayer could not be established: %@", error.localizedDescription);
+	}
 }
 
 - (void)didReceiveMemoryWarning
@@ -34,24 +47,11 @@
 }
 
 -(IBAction)handleTap:(UITapGestureRecognizer *)recognizer{
-    NSError *error;
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"bear_growl" ofType:@"mp3"];
-    
-    if (![[NSFileManager defaultManager] fileExistsAtPath:path]){
-        NSLog(@"Filepath ukjent : %@", path);
+    if(self.player.playing){
+        [self.player stop];
     }else{
-        NSLog(@"Playing %@", path);
+        [self.player play];
     }
-    
-    AVAudioPlayer *player = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:&error];
-    
-    if (!player)
-	{
-		NSLog(@"AVAudioPlayer could not be established: %@", error.localizedDescription);
-	}
-    
-    [player prepareToPlay];
-    [player play];
 }
 
 @end
