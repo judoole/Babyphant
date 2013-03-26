@@ -27,8 +27,8 @@
 		0B2599DA17003F7000CA0BC8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B2599D817003F7000CA0BC8 /* InfoPlist.strings */; };
 		0B2599DD17003F7000CA0BC8 /* PictoramaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2599DC17003F7000CA0BC8 /* PictoramaTests.m */; };
 		0B2599E9170042EE00CA0BC8 /* frogme.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B2599E8170042EE00CA0BC8 /* frogme.jpg */; };
-		0B2599EB1700AF7400CA0BC8 /* bear_growl_y.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0B2599EA1700AF7400CA0BC8 /* bear_growl_y.wav */; };
 		0B2599ED1700B88500CA0BC8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2599EC1700B88500CA0BC8 /* AVFoundation.framework */; };
+		0B2599EF1701864F00CA0BC8 /* bear_growl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0B2599EE1701864F00CA0BC8 /* bear_growl.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,8 +70,8 @@
 		0B2599DB17003F7000CA0BC8 /* PictoramaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictoramaTests.h; sourceTree = "<group>"; };
 		0B2599DC17003F7000CA0BC8 /* PictoramaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictoramaTests.m; sourceTree = "<group>"; };
 		0B2599E8170042EE00CA0BC8 /* frogme.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = frogme.jpg; sourceTree = "<group>"; };
-		0B2599EA1700AF7400CA0BC8 /* bear_growl_y.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bear_growl_y.wav; sourceTree = "<group>"; };
 		0B2599EC1700B88500CA0BC8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0B2599EE1701864F00CA0BC8 /* bear_growl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bear_growl.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,7 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				0B2599AA17003F7000CA0BC8 /* Pictorama-Info.plist */,
-				0B2599EA1700AF7400CA0BC8 /* bear_growl_y.wav */,
+				0B2599EE1701864F00CA0BC8 /* bear_growl.mp3 */,
 				0B2599AB17003F7000CA0BC8 /* InfoPlist.strings */,
 				0B2599AE17003F7000CA0BC8 /* main.m */,
 				0B2599B017003F7000CA0BC8 /* Pictorama-Prefix.pch */,
@@ -261,7 +261,7 @@
 				0B2599C517003F7000CA0BC8 /* MainStoryboard_iPhone.storyboard in Resources */,
 				0B2599C817003F7000CA0BC8 /* MainStoryboard_iPad.storyboard in Resources */,
 				0B2599E9170042EE00CA0BC8 /* frogme.jpg in Resources */,
-				0B2599EB1700AF7400CA0BC8 /* bear_growl_y.wav in Resources */,
+				0B2599EF1701864F00CA0BC8 /* bear_growl.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +491,7 @@
 				0B2599E217003F7100CA0BC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B2599E317003F7100CA0BC8 /* Build configuration list for PBXNativeTarget "PictoramaTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +500,7 @@
 				0B2599E517003F7100CA0BC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

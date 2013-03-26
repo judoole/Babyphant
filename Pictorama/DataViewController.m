@@ -34,9 +34,8 @@
 }
 
 -(IBAction)handleTap:(UITapGestureRecognizer *)recognizer{
-    NSLog(@"We have a tap");
     NSError *error;
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"bear_growl_y" ofType:@"wav"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"bear_growl" ofType:@"mp3"];
     
     if (![[NSFileManager defaultManager] fileExistsAtPath:path]){
         NSLog(@"Filepath ukjent : %@", path);
@@ -48,9 +47,10 @@
     
     if (!player)
 	{
-		NSLog(@"AVAudioPlayer could not be established: %@", error.localizedFailureReason);
+		NSLog(@"AVAudioPlayer could not be established: %@", error.localizedDescription);
 	}
     
+    [player prepareToPlay];
     [player play];
 }
 
