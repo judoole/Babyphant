@@ -20,7 +20,7 @@
  */
 
 @interface ModelController()
-@property (readonly, strong, nonatomic) NSArray *pageData;
+@property (readonly, strong, nonatomic) NSArray *images;
 @end
 
 @implementation ModelController
@@ -30,8 +30,7 @@
     self = [super init];
     if (self) {
         // Create the data model.
-        NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-        _pageData = [[dateFormatter monthSymbols] copy];
+        _images = [NSArray arrayWithObjects:@"black_bear.jpg", @"macaque_low.jpg", nil];
     }
     return self;
 }
@@ -39,13 +38,13 @@
 - (DataViewController *)viewControllerAtIndex:(NSUInteger)index storyboard:(UIStoryboard *)storyboard
 {   
     // Return the data view controller for the given index.
-    if (([self.pageData count] == 0) || (index >= [self.pageData count])) {
+    if (([self.images count] == 0) || (index >= [self.images count])) {
         return nil;
     }
     
     // Create a new view controller and pass suitable data.
     DataViewController *dataViewController = [storyboard instantiateViewControllerWithIdentifier:@"DataViewController"];
-    dataViewController.dataObject = self.pageData[index];
+    dataViewController.imageUrl = self.images[index];
     return dataViewController;
 }
 
@@ -53,7 +52,7 @@
 {   
      // Return the index of the given data view controller.
      // For simplicity, this implementation uses a static array of model objects and the view controller stores the model object; you can therefore use the model object to identify the index.
-    return [self.pageData indexOfObject:viewController.dataObject];
+    return [self.images indexOfObject:viewController.imageUrl];
 }
 
 #pragma mark - Page View Controller Data Source
@@ -77,7 +76,7 @@
     }
     
     index++;
-    if (index == [self.pageData count]) {
+    if (index == [self.images count]) {
         return nil;
     }
     return [self viewControllerAtIndex:index storyboard:viewController.storyboard];

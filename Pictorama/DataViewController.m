@@ -21,7 +21,7 @@
     NSString *path = [[NSBundle mainBundle] pathForResource:@"bear_growl" ofType:@"mp3"];
     
     if (![[NSFileManager defaultManager] fileExistsAtPath:path]){
-        NSLog(@"Filepath ukjent : %@", path);
+        NSLog(@"Filepath unknown : %@", path);
     }else{
         NSLog(@"Playing %@", path);
     }
@@ -43,7 +43,8 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    self.dataLabel.text = [self.dataObject description];
+    self.imageView.image = [UIImage imageNamed:self.imageUrl];
+    //self.dataLabel.text = [self.dataObject description];
 }
 
 -(IBAction)handleTap:(UITapGestureRecognizer *)recognizer{
