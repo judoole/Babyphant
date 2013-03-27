@@ -17,21 +17,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	NSError *error;
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"bear_growl" ofType:@"mp3"];
-    
-    if (![[NSFileManager defaultManager] fileExistsAtPath:path]){
-        NSLog(@"Filepath unknown : %@", path);
-    }else{
-        NSLog(@"Playing %@", path);
-    }
-    
-    self.player = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:&error];
-    
-    if (!self.player)
-	{
-		NSLog(@"AVAudioPlayer could not be established: %@", error.localizedDescription);
-	}
 }
 
 - (void)didReceiveMemoryWarning
@@ -44,7 +29,17 @@
 {
     [super viewWillAppear:animated];
     self.imageView.image = [UIImage imageNamed:self.imageUrl];
-    //self.dataLabel.text = [self.dataObject description];
+
+    NSError *error;
+    NSString *path = [[NSBundle mainBundle] pathForResource:self.mp3 ofType:@"mp3"];
+
+    self.player = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:&error];
+
+    if (!self.player){
+        NSLog(@"AVAudioPlayer could not be established: %@", error.description);
+    }else{
+        [self.player prepareToPlay];
+    }
 }
 
 -(IBAction)handleTap:(UITapGestureRecognizer *)recognizer{

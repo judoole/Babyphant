@@ -21,6 +21,7 @@
 
 @interface ModelController()
 @property (readonly, strong, nonatomic) NSArray *images;
+@property (readonly, strong, nonatomic) NSArray *sounds;
 @end
 
 @implementation ModelController
@@ -31,6 +32,7 @@
     if (self) {
         // Create the data model.
         _images = [NSArray arrayWithObjects:@"black_bear.jpg", @"macaque_low.jpg", nil];
+        _sounds = [NSArray arrayWithObjects:@"bear_growl", @"ape", nil];
     }
     return self;
 }
@@ -45,6 +47,7 @@
     // Create a new view controller and pass suitable data.
     DataViewController *dataViewController = [storyboard instantiateViewControllerWithIdentifier:@"DataViewController"];
     dataViewController.imageUrl = self.images[index];
+    dataViewController.mp3 = self.sounds[index];
     return dataViewController;
 }
 
