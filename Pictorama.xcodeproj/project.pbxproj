@@ -35,6 +35,7 @@
 		0B259A4817033F3200CA0BC8 /* green_parrot_low.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B259A4717033F3200CA0BC8 /* green_parrot_low.jpg */; };
 		0B259A4A1703402300CA0BC8 /* parrot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0B259A491703402300CA0BC8 /* parrot.mp3 */; };
 		0B259A4B1703407000CA0BC8 /* green_parrot_low.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B259A4717033F3200CA0BC8 /* green_parrot_low.jpg */; };
+		0BA72ED51703A3E400866F71 /* black_bear~ipad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0BA72ED41703A3E400866F71 /* black_bear~ipad.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		0B259A441701FF4B00CA0BC8 /* ape.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ape.mp3; sourceTree = "<group>"; };
 		0B259A4717033F3200CA0BC8 /* green_parrot_low.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = green_parrot_low.jpg; sourceTree = "<group>"; };
 		0B259A491703402300CA0BC8 /* parrot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = parrot.mp3; sourceTree = "<group>"; };
+		0BA72ED41703A3E400866F71 /* black_bear~ipad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "black_bear~ipad.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				0B2599AA17003F7000CA0BC8 /* Pictorama-Info.plist */,
+				0BA72ED41703A3E400866F71 /* black_bear~ipad.jpg */,
 				0B2599EE1701864F00CA0BC8 /* bear_growl.mp3 */,
 				0B259A441701FF4B00CA0BC8 /* ape.mp3 */,
 				0B2599AB17003F7000CA0BC8 /* InfoPlist.strings */,
@@ -280,6 +283,7 @@
 				0B259A411701D6F900CA0BC8 /* black_bear.jpg in Resources */,
 				0B259A451701FF4B00CA0BC8 /* ape.mp3 in Resources */,
 				0B259A4A1703402300CA0BC8 /* parrot.mp3 in Resources */,
+				0BA72ED51703A3E400866F71 /* black_bear~ipad.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
