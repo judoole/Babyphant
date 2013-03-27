@@ -29,7 +29,7 @@
 {
     [super viewWillAppear:animated];
     self.imageView.image = [UIImage imageNamed:self.imageUrl];
-
+    
     NSError *error;
     NSString *path = [[NSBundle mainBundle] pathForResource:self.mp3 ofType:@"mp3"];
 
@@ -48,6 +48,11 @@
     }else{
         [self.player play];
     }
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    [self.player stop];
 }
 
 @end

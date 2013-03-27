@@ -31,8 +31,8 @@
     self = [super init];
     if (self) {
         // Create the data model.
-        _images = [NSArray arrayWithObjects:@"black_bear.jpg", @"macaque_low.jpg", nil];
-        _sounds = [NSArray arrayWithObjects:@"bear_growl", @"ape", nil];
+        _images = [NSArray arrayWithObjects:@"green_parrot_low.jpg", @"black_bear.jpg", @"macaque_low.jpg", nil];
+        _sounds = [NSArray arrayWithObjects:@"parrot", @"bear_growl", @"ape", nil];
     }
     return self;
 }
