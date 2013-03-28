@@ -24,7 +24,7 @@
     if (self) {
         // Create the data model.
         _images = [NSArray arrayWithObjects:@"elephant.jpg", @"green_parrot_low.jpg", @"black_bear.jpg", @"macaque_low.jpg", nil];
-        _sounds = [NSArray arrayWithObjects:@"bear_growl", @"parrot", @"bear_growl", @"ape", nil];
+        _sounds = [NSArray arrayWithObjects:@"elephant", @"parrot", @"bear_growl", @"ape", nil];
     }
     return self;
 }

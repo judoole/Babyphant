@@ -43,6 +43,7 @@
 		0BA72EE3170470E600866F71 /* elephant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0BA72EE0170470E600866F71 /* elephant.jpg */; };
 		0BA72EE4170470E600866F71 /* elephant~ipad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0BA72EE1170470E600866F71 /* elephant~ipad.jpg */; };
 		0BA72EE5170470E600866F71 /* elephant@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0BA72EE2170470E600866F71 /* elephant@2x.jpg */; };
+		0BA72EE71704909400866F71 /* elephant.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0BA72EE61704909400866F71 /* elephant.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +99,7 @@
 		0BA72EE0170470E600866F71 /* elephant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elephant.jpg; sourceTree = "<group>"; };
 		0BA72EE1170470E600866F71 /* elephant~ipad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "elephant~ipad.jpg"; sourceTree = "<group>"; };
 		0BA72EE2170470E600866F71 /* elephant@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "elephant@2x.jpg"; sourceTree = "<group>"; };
+		0BA72EE61704909400866F71 /* elephant.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = elephant.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +235,7 @@
 		0BA72EDF17046B9B00866F71 /* sounds */ = {
 			isa = PBXGroup;
 			children = (
+				0BA72EE61704909400866F71 /* elephant.mp3 */,
 			);
 			name = sounds;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 				0BA72EE3170470E600866F71 /* elephant.jpg in Resources */,
 				0BA72EE4170470E600866F71 /* elephant~ipad.jpg in Resources */,
 				0BA72EE5170470E600866F71 /* elephant@2x.jpg in Resources */,
+				0BA72EE71704909400866F71 /* elephant.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
