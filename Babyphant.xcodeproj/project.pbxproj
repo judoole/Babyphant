@@ -40,6 +40,9 @@
 		0BA72ED91704597F00866F71 /* elephant_144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA72ED81704597F00866F71 /* elephant_144x144.png */; };
 		0BA72EDB17045ED300866F71 /* elephant_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA72EDA17045ED300866F71 /* elephant_57x57.png */; };
 		0BA72EDD17045F2800866F71 /* elephant_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA72EDC17045F2800866F71 /* elephant_114x114.png */; };
+		0BA72EE3170470E600866F71 /* elephant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0BA72EE0170470E600866F71 /* elephant.jpg */; };
+		0BA72EE4170470E600866F71 /* elephant~ipad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0BA72EE1170470E600866F71 /* elephant~ipad.jpg */; };
+		0BA72EE5170470E600866F71 /* elephant-568h@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0BA72EE2170470E600866F71 /* elephant-568h@2x.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +95,9 @@
 		0BA72ED81704597F00866F71 /* elephant_144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elephant_144x144.png; sourceTree = "<group>"; };
 		0BA72EDA17045ED300866F71 /* elephant_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elephant_57x57.png; sourceTree = "<group>"; };
 		0BA72EDC17045F2800866F71 /* elephant_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elephant_114x114.png; sourceTree = "<group>"; };
+		0BA72EE0170470E600866F71 /* elephant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elephant.jpg; sourceTree = "<group>"; };
+		0BA72EE1170470E600866F71 /* elephant~ipad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "elephant~ipad.jpg"; sourceTree = "<group>"; };
+		0BA72EE2170470E600866F71 /* elephant-568h@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "elephant-568h@2x.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,13 +175,14 @@
 				0B2599C617003F7000CA0BC8 /* MainStoryboard_iPad.storyboard */,
 				0B2599A917003F7000CA0BC8 /* Supporting Files */,
 			);
-			name = Babyphant;
 			path = Babyphant;
 			sourceTree = "<group>";
 		};
 		0B2599A917003F7000CA0BC8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0BA72EDF17046B9B00866F71 /* sounds */,
+				0BA72EDE17046B9200866F71 /* images */,
 				0B2599AA17003F7000CA0BC8 /* Babyphant-Info.plist */,
 				0BA72ED41703A3E400866F71 /* black_bear~ipad.jpg */,
 				0B2599EE1701864F00CA0BC8 /* bear_growl.mp3 */,
@@ -201,7 +208,6 @@
 				0B2599DC17003F7000CA0BC8 /* BabyphantTests.m */,
 				0B2599D617003F7000CA0BC8 /* Supporting Files */,
 			);
-			name = BabyphantTests;
 			path = BabyphantTests;
 			sourceTree = "<group>";
 		};
@@ -212,6 +218,23 @@
 				0B2599D817003F7000CA0BC8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0BA72EDE17046B9200866F71 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				0BA72EE0170470E600866F71 /* elephant.jpg */,
+				0BA72EE1170470E600866F71 /* elephant~ipad.jpg */,
+				0BA72EE2170470E600866F71 /* elephant-568h@2x.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		0BA72EDF17046B9B00866F71 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,6 +325,9 @@
 				0BA72ED91704597F00866F71 /* elephant_144x144.png in Resources */,
 				0BA72EDB17045ED300866F71 /* elephant_57x57.png in Resources */,
 				0BA72EDD17045F2800866F71 /* elephant_114x114.png in Resources */,
+				0BA72EE3170470E600866F71 /* elephant.jpg in Resources */,
+				0BA72EE4170470E600866F71 /* elephant~ipad.jpg in Resources */,
+				0BA72EE5170470E600866F71 /* elephant-568h@2x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
