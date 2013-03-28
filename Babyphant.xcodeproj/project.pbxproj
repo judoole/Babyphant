@@ -53,14 +53,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B25999F17003F7000CA0BC8 /* Pictorama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pictorama.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B25999F17003F7000CA0BC8 /* Babyphant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Babyphant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B2599A217003F7000CA0BC8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0B2599A417003F7000CA0BC8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0B2599A617003F7000CA0BC8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		0B2599AA17003F7000CA0BC8 /* Pictorama-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pictorama-Info.plist"; sourceTree = "<group>"; };
+		0B2599AA17003F7000CA0BC8 /* Babyphant-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Babyphant-Info.plist"; sourceTree = "<group>"; };
 		0B2599AC17003F7000CA0BC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0B2599AE17003F7000CA0BC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0B2599B017003F7000CA0BC8 /* Pictorama-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pictorama-Prefix.pch"; sourceTree = "<group>"; };
+		0B2599B017003F7000CA0BC8 /* Babyphant-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Babyphant-Prefix.pch"; sourceTree = "<group>"; };
 		0B2599B117003F7000CA0BC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0B2599B217003F7000CA0BC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0B2599B417003F7000CA0BC8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -74,9 +74,9 @@
 		0B2599C117003F7000CA0BC8 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
 		0B2599C417003F7000CA0BC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		0B2599C717003F7000CA0BC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		0B2599CE17003F7000CA0BC8 /* PictoramaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PictoramaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B2599CE17003F7000CA0BC8 /* BabyphantTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabyphantTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B2599CF17003F7000CA0BC8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		0B2599D717003F7000CA0BC8 /* PictoramaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PictoramaTests-Info.plist"; sourceTree = "<group>"; };
+		0B2599D717003F7000CA0BC8 /* BabyphantTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BabyphantTests-Info.plist"; sourceTree = "<group>"; };
 		0B2599D917003F7000CA0BC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0B2599DB17003F7000CA0BC8 /* PictoramaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictoramaTests.h; sourceTree = "<group>"; };
 		0B2599DC17003F7000CA0BC8 /* PictoramaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictoramaTests.m; sourceTree = "<group>"; };
@@ -127,8 +127,8 @@
 				0BA72ED81704597F00866F71 /* elephant_144x144.png */,
 				0BA72ED61704591600866F71 /* elephant_72x72.png */,
 				0B2599EC1700B88500CA0BC8 /* AVFoundation.framework */,
-				0B2599A817003F7000CA0BC8 /* Pictorama */,
-				0B2599D517003F7000CA0BC8 /* PictoramaTests */,
+				0B2599A817003F7000CA0BC8 /* Source */,
+				0B2599D517003F7000CA0BC8 /* Tests */,
 				0B2599A117003F7000CA0BC8 /* Frameworks */,
 				0B2599A017003F7000CA0BC8 /* Products */,
 			);
@@ -137,8 +137,8 @@
 		0B2599A017003F7000CA0BC8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0B25999F17003F7000CA0BC8 /* Pictorama.app */,
-				0B2599CE17003F7000CA0BC8 /* PictoramaTests.octest */,
+				0B25999F17003F7000CA0BC8 /* Babyphant.app */,
+				0B2599CE17003F7000CA0BC8 /* BabyphantTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,7 +154,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0B2599A817003F7000CA0BC8 /* Pictorama */ = {
+		0B2599A817003F7000CA0BC8 /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				0B2599B117003F7000CA0BC8 /* AppDelegate.h */,
@@ -169,13 +169,14 @@
 				0B2599C617003F7000CA0BC8 /* MainStoryboard_iPad.storyboard */,
 				0B2599A917003F7000CA0BC8 /* Supporting Files */,
 			);
+			name = Source;
 			path = Pictorama;
 			sourceTree = "<group>";
 		};
 		0B2599A917003F7000CA0BC8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0B2599AA17003F7000CA0BC8 /* Pictorama-Info.plist */,
+				0B2599AA17003F7000CA0BC8 /* Babyphant-Info.plist */,
 				0BA72ED41703A3E400866F71 /* black_bear~ipad.jpg */,
 				0B2599EE1701864F00CA0BC8 /* bear_growl.mp3 */,
 				0B259A441701FF4B00CA0BC8 /* ape.mp3 */,
@@ -185,7 +186,7 @@
 				0B259A491703402300CA0BC8 /* parrot.mp3 */,
 				0B259A421701EE0A00CA0BC8 /* macaque_low.jpg */,
 				0B2599AE17003F7000CA0BC8 /* main.m */,
-				0B2599B017003F7000CA0BC8 /* Pictorama-Prefix.pch */,
+				0B2599B017003F7000CA0BC8 /* Babyphant-Prefix.pch */,
 				0B2599B417003F7000CA0BC8 /* Default.png */,
 				0B2599B617003F7000CA0BC8 /* Default@2x.png */,
 				0B2599B817003F7000CA0BC8 /* Default-568h@2x.png */,
@@ -193,20 +194,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0B2599D517003F7000CA0BC8 /* PictoramaTests */ = {
+		0B2599D517003F7000CA0BC8 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				0B2599DB17003F7000CA0BC8 /* PictoramaTests.h */,
 				0B2599DC17003F7000CA0BC8 /* PictoramaTests.m */,
 				0B2599D617003F7000CA0BC8 /* Supporting Files */,
 			);
+			name = Tests;
 			path = PictoramaTests;
 			sourceTree = "<group>";
 		};
 		0B2599D617003F7000CA0BC8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0B2599D717003F7000CA0BC8 /* PictoramaTests-Info.plist */,
+				0B2599D717003F7000CA0BC8 /* BabyphantTests-Info.plist */,
 				0B2599D817003F7000CA0BC8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -215,9 +217,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0B25999E17003F7000CA0BC8 /* Pictorama */ = {
+		0B25999E17003F7000CA0BC8 /* Babyphant */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B2599E017003F7100CA0BC8 /* Build configuration list for PBXNativeTarget "Pictorama" */;
+			buildConfigurationList = 0B2599E017003F7100CA0BC8 /* Build configuration list for PBXNativeTarget "Babyphant" */;
 			buildPhases = (
 				0B25999B17003F7000CA0BC8 /* Sources */,
 				0B25999C17003F7000CA0BC8 /* Frameworks */,
@@ -227,14 +229,14 @@
 			);
 			dependencies = (
 			);
-			name = Pictorama;
+			name = Babyphant;
 			productName = Pictorama;
-			productReference = 0B25999F17003F7000CA0BC8 /* Pictorama.app */;
+			productReference = 0B25999F17003F7000CA0BC8 /* Babyphant.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0B2599CD17003F7000CA0BC8 /* PictoramaTests */ = {
+		0B2599CD17003F7000CA0BC8 /* BabyphantTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B2599E317003F7100CA0BC8 /* Build configuration list for PBXNativeTarget "PictoramaTests" */;
+			buildConfigurationList = 0B2599E317003F7100CA0BC8 /* Build configuration list for PBXNativeTarget "BabyphantTests" */;
 			buildPhases = (
 				0B2599C917003F7000CA0BC8 /* Sources */,
 				0B2599CA17003F7000CA0BC8 /* Frameworks */,
@@ -246,9 +248,9 @@
 			dependencies = (
 				0B2599D417003F7000CA0BC8 /* PBXTargetDependency */,
 			);
-			name = PictoramaTests;
+			name = BabyphantTests;
 			productName = PictoramaTests;
-			productReference = 0B2599CE17003F7000CA0BC8 /* PictoramaTests.octest */;
+			productReference = 0B2599CE17003F7000CA0BC8 /* BabyphantTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -260,7 +262,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = Judoole;
 			};
-			buildConfigurationList = 0B25999A17003F7000CA0BC8 /* Build configuration list for PBXProject "Pictorama" */;
+			buildConfigurationList = 0B25999A17003F7000CA0BC8 /* Build configuration list for PBXProject "Babyphant" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -272,8 +274,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0B25999E17003F7000CA0BC8 /* Pictorama */,
-				0B2599CD17003F7000CA0BC8 /* PictoramaTests */,
+				0B25999E17003F7000CA0BC8 /* Babyphant */,
+				0B2599CD17003F7000CA0BC8 /* BabyphantTests */,
 			);
 		};
 /* End PBXProject section */
@@ -357,7 +359,7 @@
 /* Begin PBXTargetDependency section */
 		0B2599D417003F7000CA0BC8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0B25999E17003F7000CA0BC8 /* Pictorama */;
+			target = 0B25999E17003F7000CA0BC8 /* Babyphant */;
 			targetProxy = 0B2599D317003F7000CA0BC8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -460,9 +462,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Pictorama/Pictorama-Prefix.pch";
-				INFOPLIST_FILE = "Pictorama/Pictorama-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Pictorama/Babyphant-Prefix.pch";
+				INFOPLIST_FILE = "Pictorama/Babyphant-Info.plist";
+				PRODUCT_NAME = Babyphant;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -471,9 +473,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Pictorama/Pictorama-Prefix.pch";
-				INFOPLIST_FILE = "Pictorama/Pictorama-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Pictorama/Babyphant-Prefix.pch";
+				INFOPLIST_FILE = "Pictorama/Babyphant-Info.plist";
+				PRODUCT_NAME = Babyphant;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -488,8 +490,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pictorama/Pictorama-Prefix.pch";
-				INFOPLIST_FILE = "PictoramaTests/PictoramaTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "PictoramaTests/BabyphantTests-Info.plist";
+				PRODUCT_NAME = BabyphantTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -505,8 +507,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pictorama/Pictorama-Prefix.pch";
-				INFOPLIST_FILE = "PictoramaTests/PictoramaTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "PictoramaTests/BabyphantTests-Info.plist";
+				PRODUCT_NAME = BabyphantTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -515,7 +517,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0B25999A17003F7000CA0BC8 /* Build configuration list for PBXProject "Pictorama" */ = {
+		0B25999A17003F7000CA0BC8 /* Build configuration list for PBXProject "Babyphant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B2599DE17003F7100CA0BC8 /* Debug */,
@@ -524,7 +526,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0B2599E017003F7100CA0BC8 /* Build configuration list for PBXNativeTarget "Pictorama" */ = {
+		0B2599E017003F7100CA0BC8 /* Build configuration list for PBXNativeTarget "Babyphant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B2599E117003F7100CA0BC8 /* Debug */,
@@ -533,7 +535,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0B2599E317003F7100CA0BC8 /* Build configuration list for PBXNativeTarget "PictoramaTests" */ = {
+		0B2599E317003F7100CA0BC8 /* Build configuration list for PBXNativeTarget "BabyphantTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B2599E417003F7100CA0BC8 /* Debug */,
