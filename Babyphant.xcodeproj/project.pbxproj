@@ -25,7 +25,7 @@
 		0B2599D117003F7000CA0BC8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2599A217003F7000CA0BC8 /* UIKit.framework */; };
 		0B2599D217003F7000CA0BC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2599A417003F7000CA0BC8 /* Foundation.framework */; };
 		0B2599DA17003F7000CA0BC8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B2599D817003F7000CA0BC8 /* InfoPlist.strings */; };
-		0B2599DD17003F7000CA0BC8 /* PictoramaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2599DC17003F7000CA0BC8 /* PictoramaTests.m */; };
+		0B2599DD17003F7000CA0BC8 /* BabyphantTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2599DC17003F7000CA0BC8 /* BabyphantTests.m */; };
 		0B2599ED1700B88500CA0BC8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2599EC1700B88500CA0BC8 /* AVFoundation.framework */; };
 		0B2599EF1701864F00CA0BC8 /* bear_growl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0B2599EE1701864F00CA0BC8 /* bear_growl.mp3 */; };
 		0B259A411701D6F900CA0BC8 /* black_bear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B259A401701D6F900CA0BC8 /* black_bear.jpg */; };
@@ -78,8 +78,8 @@
 		0B2599CF17003F7000CA0BC8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		0B2599D717003F7000CA0BC8 /* BabyphantTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BabyphantTests-Info.plist"; sourceTree = "<group>"; };
 		0B2599D917003F7000CA0BC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0B2599DB17003F7000CA0BC8 /* PictoramaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictoramaTests.h; sourceTree = "<group>"; };
-		0B2599DC17003F7000CA0BC8 /* PictoramaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictoramaTests.m; sourceTree = "<group>"; };
+		0B2599DB17003F7000CA0BC8 /* BabyphantTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BabyphantTests.h; sourceTree = "<group>"; };
+		0B2599DC17003F7000CA0BC8 /* BabyphantTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BabyphantTests.m; sourceTree = "<group>"; };
 		0B2599EC1700B88500CA0BC8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		0B2599EE1701864F00CA0BC8 /* bear_growl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bear_growl.mp3; sourceTree = "<group>"; };
 		0B259A401701D6F900CA0BC8 /* black_bear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = black_bear.jpg; sourceTree = "<group>"; };
@@ -197,8 +197,8 @@
 		0B2599D517003F7000CA0BC8 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				0B2599DB17003F7000CA0BC8 /* PictoramaTests.h */,
-				0B2599DC17003F7000CA0BC8 /* PictoramaTests.m */,
+				0B2599DB17003F7000CA0BC8 /* BabyphantTests.h */,
+				0B2599DC17003F7000CA0BC8 /* BabyphantTests.m */,
 				0B2599D617003F7000CA0BC8 /* Supporting Files */,
 			);
 			name = Tests;
@@ -350,7 +350,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B2599DD17003F7000CA0BC8 /* PictoramaTests.m in Sources */,
+				0B2599DD17003F7000CA0BC8 /* BabyphantTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
