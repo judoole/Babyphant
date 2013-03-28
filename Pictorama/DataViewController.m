@@ -1,11 +1,3 @@
-//
-//  DataViewController.m
-//  Pictorama
-//
-//  Created by Ole C. Langfjæran on 3/25/13.
-//  Copyright (c) 2013 Judoole. All rights reserved.
-//
-
 #import "DataViewController.h"
 
 @interface DataViewController ()
@@ -14,16 +6,6 @@
 
 @implementation DataViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 - (void)viewWillAppear:(BOOL)animated
 {
