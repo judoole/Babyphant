@@ -127,8 +127,8 @@
 				0BA72ED81704597F00866F71 /* elephant_144x144.png */,
 				0BA72ED61704591600866F71 /* elephant_72x72.png */,
 				0B2599EC1700B88500CA0BC8 /* AVFoundation.framework */,
-				0B2599A817003F7000CA0BC8 /* Source */,
-				0B2599D517003F7000CA0BC8 /* Tests */,
+				0B2599A817003F7000CA0BC8 /* BabyphantSource */,
+				0B2599D517003F7000CA0BC8 /* BabyphantTests */,
 				0B2599A117003F7000CA0BC8 /* Frameworks */,
 				0B2599A017003F7000CA0BC8 /* Products */,
 			);
@@ -154,7 +154,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0B2599A817003F7000CA0BC8 /* Source */ = {
+		0B2599A817003F7000CA0BC8 /* BabyphantSource */ = {
 			isa = PBXGroup;
 			children = (
 				0B2599B117003F7000CA0BC8 /* AppDelegate.h */,
@@ -169,7 +169,7 @@
 				0B2599C617003F7000CA0BC8 /* MainStoryboard_iPad.storyboard */,
 				0B2599A917003F7000CA0BC8 /* Supporting Files */,
 			);
-			name = Source;
+			name = BabyphantSource;
 			path = Pictorama;
 			sourceTree = "<group>";
 		};
@@ -194,14 +194,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0B2599D517003F7000CA0BC8 /* Tests */ = {
+		0B2599D517003F7000CA0BC8 /* BabyphantTests */ = {
 			isa = PBXGroup;
 			children = (
 				0B2599DB17003F7000CA0BC8 /* BabyphantTests.h */,
 				0B2599DC17003F7000CA0BC8 /* BabyphantTests.m */,
 				0B2599D617003F7000CA0BC8 /* Supporting Files */,
 			);
-			name = Tests;
+			name = BabyphantTests;
 			path = PictoramaTests;
 			sourceTree = "<group>";
 		};
