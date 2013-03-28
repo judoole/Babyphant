@@ -48,7 +48,7 @@
 			containerPortal = 0B25999717003F7000CA0BC8 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0B25999E17003F7000CA0BC8;
-			remoteInfo = Pictorama;
+			remoteInfo = Babyphant;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -127,7 +127,7 @@
 				0BA72ED81704597F00866F71 /* elephant_144x144.png */,
 				0BA72ED61704591600866F71 /* elephant_72x72.png */,
 				0B2599EC1700B88500CA0BC8 /* AVFoundation.framework */,
-				0B2599A817003F7000CA0BC8 /* BabyphantSource */,
+				0B2599A817003F7000CA0BC8 /* Babyphant */,
 				0B2599D517003F7000CA0BC8 /* BabyphantTests */,
 				0B2599A117003F7000CA0BC8 /* Frameworks */,
 				0B2599A017003F7000CA0BC8 /* Products */,
@@ -154,7 +154,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0B2599A817003F7000CA0BC8 /* BabyphantSource */ = {
+		0B2599A817003F7000CA0BC8 /* Babyphant */ = {
 			isa = PBXGroup;
 			children = (
 				0B2599B117003F7000CA0BC8 /* AppDelegate.h */,
@@ -169,8 +169,8 @@
 				0B2599C617003F7000CA0BC8 /* MainStoryboard_iPad.storyboard */,
 				0B2599A917003F7000CA0BC8 /* Supporting Files */,
 			);
-			name = BabyphantSource;
-			path = Pictorama;
+			name = Babyphant;
+			path = Babyphant;
 			sourceTree = "<group>";
 		};
 		0B2599A917003F7000CA0BC8 /* Supporting Files */ = {
@@ -202,7 +202,7 @@
 				0B2599D617003F7000CA0BC8 /* Supporting Files */,
 			);
 			name = BabyphantTests;
-			path = PictoramaTests;
+			path = BabyphantTests;
 			sourceTree = "<group>";
 		};
 		0B2599D617003F7000CA0BC8 /* Supporting Files */ = {
@@ -230,7 +230,7 @@
 			dependencies = (
 			);
 			name = Babyphant;
-			productName = Pictorama;
+			productName = Babyphant;
 			productReference = 0B25999F17003F7000CA0BC8 /* Babyphant.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -249,7 +249,7 @@
 				0B2599D417003F7000CA0BC8 /* PBXTargetDependency */,
 			);
 			name = BabyphantTests;
-			productName = PictoramaTests;
+			productName = BabyphantTests;
 			productReference = 0B2599CE17003F7000CA0BC8 /* BabyphantTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
@@ -462,8 +462,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Pictorama/Babyphant-Prefix.pch";
-				INFOPLIST_FILE = "Pictorama/Babyphant-Info.plist";
+				GCC_PREFIX_HEADER = "Babyphant/Babyphant-Prefix.pch";
+				INFOPLIST_FILE = "Babyphant/Babyphant-Info.plist";
 				PRODUCT_NAME = Babyphant;
 				WRAPPER_EXTENSION = app;
 			};
@@ -473,8 +473,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Pictorama/Babyphant-Prefix.pch";
-				INFOPLIST_FILE = "Pictorama/Babyphant-Info.plist";
+				GCC_PREFIX_HEADER = "Babyphant/Babyphant-Prefix.pch";
+				INFOPLIST_FILE = "Babyphant/Babyphant-Info.plist";
 				PRODUCT_NAME = Babyphant;
 				WRAPPER_EXTENSION = app;
 			};
@@ -483,14 +483,14 @@
 		0B2599E417003F7100CA0BC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pictorama.app/Pictorama";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Babyphant.app/Babyphant";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Pictorama/Pictorama-Prefix.pch";
-				INFOPLIST_FILE = "PictoramaTests/BabyphantTests-Info.plist";
+				GCC_PREFIX_HEADER = "Babyphant/Babyphant-Prefix.pch";
+				INFOPLIST_FILE = "BabyphantTests/BabyphantTests-Info.plist";
 				PRODUCT_NAME = BabyphantTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -500,14 +500,14 @@
 		0B2599E517003F7100CA0BC8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pictorama.app/Pictorama";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Babyphant.app/Babyphant";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Pictorama/Pictorama-Prefix.pch";
-				INFOPLIST_FILE = "PictoramaTests/BabyphantTests-Info.plist";
+				GCC_PREFIX_HEADER = "Babyphant/Babyphant-Prefix.pch";
+				INFOPLIST_FILE = "BabyphantTests/BabyphantTests-Info.plist";
 				PRODUCT_NAME = BabyphantTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
