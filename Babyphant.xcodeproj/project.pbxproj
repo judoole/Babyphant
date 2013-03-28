@@ -42,7 +42,7 @@
 		0BA72EDD17045F2800866F71 /* elephant_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA72EDC17045F2800866F71 /* elephant_114x114.png */; };
 		0BA72EE3170470E600866F71 /* elephant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0BA72EE0170470E600866F71 /* elephant.jpg */; };
 		0BA72EE4170470E600866F71 /* elephant~ipad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0BA72EE1170470E600866F71 /* elephant~ipad.jpg */; };
-		0BA72EE5170470E600866F71 /* elephant-568h@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0BA72EE2170470E600866F71 /* elephant-568h@2x.jpg */; };
+		0BA72EE5170470E600866F71 /* elephant@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0BA72EE2170470E600866F71 /* elephant@2x.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,7 +97,7 @@
 		0BA72EDC17045F2800866F71 /* elephant_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elephant_114x114.png; sourceTree = "<group>"; };
 		0BA72EE0170470E600866F71 /* elephant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elephant.jpg; sourceTree = "<group>"; };
 		0BA72EE1170470E600866F71 /* elephant~ipad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "elephant~ipad.jpg"; sourceTree = "<group>"; };
-		0BA72EE2170470E600866F71 /* elephant-568h@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "elephant-568h@2x.jpg"; sourceTree = "<group>"; };
+		0BA72EE2170470E600866F71 /* elephant@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "elephant@2x.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,7 +225,7 @@
 			children = (
 				0BA72EE0170470E600866F71 /* elephant.jpg */,
 				0BA72EE1170470E600866F71 /* elephant~ipad.jpg */,
-				0BA72EE2170470E600866F71 /* elephant-568h@2x.jpg */,
+				0BA72EE2170470E600866F71 /* elephant@2x.jpg */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -327,7 +327,7 @@
 				0BA72EDD17045F2800866F71 /* elephant_114x114.png in Resources */,
 				0BA72EE3170470E600866F71 /* elephant.jpg in Resources */,
 				0BA72EE4170470E600866F71 /* elephant~ipad.jpg in Resources */,
-				0BA72EE5170470E600866F71 /* elephant-568h@2x.jpg in Resources */,
+				0BA72EE5170470E600866F71 /* elephant@2x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
