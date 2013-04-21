@@ -10,11 +10,14 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    self.imageView.image = [UIImage imageNamed:self.imageUrl];
-    
     NSError *error;
-    NSString *path = [[NSBundle mainBundle] pathForResource:self.mp3 ofType:@"mp3"];
-
+    
+    //The Image
+    NSString *imagePath = [[NSBundle mainBundle] pathForResource:self.imageUrl ofType:nil inDirectory:@"babyphant-resources/images"];
+    self.imageView.image = [UIImage imageWithContentsOfFile:imagePath];
+    
+    //The sound
+    NSString *path = [[NSBundle mainBundle] pathForResource:self.mp3 ofType:@"mp3" inDirectory:@"babyphant-resources/sounds"];
     self.player = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:&error];
 
     if (!self.player){

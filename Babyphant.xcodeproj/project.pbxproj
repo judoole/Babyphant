@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B23EA941724133500572C37 /* babyphant-resources in Resources */ = {isa = PBXBuildFile; fileRef = 0B23EA931724133500572C37 /* babyphant-resources */; };
 		0B2599A317003F7000CA0BC8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2599A217003F7000CA0BC8 /* UIKit.framework */; };
 		0B2599A517003F7000CA0BC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2599A417003F7000CA0BC8 /* Foundation.framework */; };
 		0B2599A717003F7000CA0BC8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2599A617003F7000CA0BC8 /* CoreGraphics.framework */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B23EA931724133500572C37 /* babyphant-resources */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "babyphant-resources"; path = "../../../Dropbox/babyphant-resources"; sourceTree = "<group>"; };
 		0B25999F17003F7000CA0BC8 /* Babyphant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Babyphant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B2599A217003F7000CA0BC8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0B2599A417003F7000CA0BC8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -106,6 +108,7 @@
 		0B25999617003F7000CA0BC8 = {
 			isa = PBXGroup;
 			children = (
+				0B23EA931724133500572C37 /* babyphant-resources */,
 				0BA72EDC17045F2800866F71 /* elephant_114x114.png */,
 				0BA72EDA17045ED300866F71 /* elephant_57x57.png */,
 				0BA72ED81704597F00866F71 /* elephant_144x144.png */,
@@ -270,6 +273,7 @@
 				0BA72ED91704597F00866F71 /* elephant_144x144.png in Resources */,
 				0BA72EDB17045ED300866F71 /* elephant_57x57.png in Resources */,
 				0BA72EDD17045F2800866F71 /* elephant_114x114.png in Resources */,
+				0B23EA941724133500572C37 /* babyphant-resources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
